@@ -6,5 +6,8 @@ def read_txt(file_name):
             data.append((country, float(area), int(population)))
     return data
 
+def sort_area(data):
+    return sorted(data, key=lambda x: x[1])
+
 
 
