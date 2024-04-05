@@ -9,5 +9,9 @@ def read_txt(file_name):
 def sort_area(data):
     return sorted(data, key=lambda x: x[1])
 
+def sort_population(data):
+    return sorted(data, key=lambda x: x[2])
+
+
 
 
