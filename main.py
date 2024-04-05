@@ -12,6 +12,8 @@ def sort_area(data):
 def sort_population(data):
     return sorted(data, key=lambda x: x[2])
 
-
+data = read_txt("testtext.txt")
+print(sort_area(data))
+print(sort_population(data))
 
 
